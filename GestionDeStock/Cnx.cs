@@ -32,23 +32,21 @@ public class Cnx
                 sqlite_conn.Open();
             string query = @"CREATE TABLE 'categories' (
 	                                'id'	INTEGER,
-	                                'nom_cat'	TEXT,
-	                                PRIMARY KEY('id' AUTOINCREMENT)
+	                                'nom_cat'	TEXT
                                 );";
+            string query6 = @"DROP TABLE 'produit' 
+                                ";
             string query2 = @"CREATE TABLE 'produit' (
 	                                'id'	INTEGER,
                                     'nom_produit'	TEXT,
 	                                'prix'	INTEGER,
 	                                'description'	TEXT,
-	                                'categories'	TEXT,
-	                                PRIMARY KEY('id' AUTOINCREMENT)
+	                                'categories'	TEXT
                                 );";
-            string query3 = @"INSERT INTO TABLE 'categories' VALUES(
-	                                 1,
-	                                'CATEGORIE1'
-                                );";
-            cmd = new SQLiteCommand(query3, sqlite_conn);
-            cmd.ExecuteNonQuery();
+           string query4 = @"INSERT INTO 'categories' (id, nom_cat) VALUES (1,'Categorie1');";
+            string query7 = @"INSERT INTO 'produit' (id, nom_produit,prix,description,categories) VALUES (1,'Produit1',1000,'DESCRIPTION','Categorie1');";
+            //cmd = new SQLiteCommand(query7, sqlite_conn);
+            //cmd.ExecuteNonQuery();
          
 
             Debug.WriteLine("Connection created successfuly");

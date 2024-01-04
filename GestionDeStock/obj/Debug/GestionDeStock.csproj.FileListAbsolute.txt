@@ -15,7 +15,5 @@ C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\GestionDeStoc
 C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\GestionDeStock.csproj.CoreCompileInputs.cache
 C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\GestionDeStock.exe
 C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\GestionDeStock.pdb
-C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\FirstApp.Form1.resources
 C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\GestionDeStock.GestionDeCategorie.resources
 C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\GestionDeStock.ManageProducts.resources
-C:\Users\acer\source\repos\GestionDeStock\GestionDeStock\obj\Debug\FirstApp.ManageUsers.resources
